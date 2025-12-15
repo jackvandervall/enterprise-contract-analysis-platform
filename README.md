@@ -17,7 +17,7 @@ Unlike generic "Copilot" tools which only summarize text, this platform acts as 
 
 ## 📈 Real-World Impact
 
-![Architecture Diagram](assets/kpi-dashboard-preview.jpg)
+![Dashboard Preview](assets/kpi-dashboard-preview.jpg)
 *Figure 1: Preview showcasing Key Performance Indicator dashboard.*
 
 During the first month of deployment, the system demonstrated immediate value:
@@ -27,9 +27,6 @@ During the first month of deployment, the system demonstrated immediate value:
 * **Operational Protection:** Directly prevented financial and operational exposure by proactively detecting subtle deviations in delivery schedules, payment terms, and scope creep.
 
 ## 🏗 Architecture & Agentic Workflow
-
-![Architecture Diagram](assets/architecture_placeholder.jpg)
-*Figure 2: High-level architecture showing the Orchestration Layer.*
 
 The system utilizes a **Multi-Agent Architecture** where a central **Orchestrator** routes user requests to specialist agents:
 
@@ -95,10 +92,11 @@ The application requires tight integration between the frontend and the AI orche
 VITE_SUPABASE_URL=[https://xyz.supabase.co](https://xyz.supabase.co)
 VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1...
 VITE_N8N_WEBHOOK_URL=[https://ai.internal-platform.com/webhook/process](https://ai.internal-platform.com/webhook/process)
-
 ```
 
-###Project Structure```
+### Project Structure
+
+```
 src/
 ├── components/          # Shadcn UI components & Custom Risk Cards
 ├── pages/               # Dashboard, Chat Interface, Document Library
@@ -111,7 +109,3 @@ src/
 ---
 
 *Copyright © 2025. All rights reserved.*
-
-```
-
-```
